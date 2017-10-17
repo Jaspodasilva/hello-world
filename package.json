@@ -1,0 +1,28 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "Hello world testing with git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaspodasilva/hello-world.git"
+  },
+  "author": "Jaakkoi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaspodasilva/hello-world/issues"
+  },
+  "homepage": "https://github.com/Jaspodasilva/hello-world#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^3.7.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

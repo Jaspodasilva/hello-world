@@ -4,13 +4,15 @@
   "description": "Hello world testing with git",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jaspodasilva/hello-world.git"
   },
-  "author": "Jaakkoi",
+  "author": "Jaspodasilva",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Jaspodasilva/hello-world/issues"
@@ -20,6 +22,7 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-latest": "^6.24.1",
+    "node-sass": "^4.5.3",
     "webpack": "^3.7.1"
   },
   "dependencies": {
